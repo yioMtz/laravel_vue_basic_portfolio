@@ -18287,12 +18287,22 @@ a.text-dark:focus {
   justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .vue-page {
+    position: static;
+    transition: none !important;
+    -webkit-animation: none !important;
+            animation: none !important;
+  }
+}
+
 .custom-card {
   position: relative;
   border: none;
   border-radius: 32px;
   height: 470px;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   text-align: justify;
   margin: auto;
 }
@@ -18341,6 +18351,10 @@ body {
   background-color: #191919;
 }
 
+.navbar {
+  background-color: #191919;
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -18350,7 +18364,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 #content-wrap {
@@ -18437,12 +18450,6 @@ body {
 @media only screen and (max-width: 600px) {
   #pmodal #desc-container {
     display: block;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #web.tab-pane {
-    display: none;
   }
 }
 

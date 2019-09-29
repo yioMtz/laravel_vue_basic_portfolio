@@ -18,7 +18,7 @@
 <body>
   <div id="app">
     <header>
-            <nav class="navbar navbar-expand-md navbar-dark  fixed-top">
+            <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
@@ -35,17 +35,17 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                             <li class="navbar-item" >
-                                   <router-link to="/" class="nav-link">Home</router-link>
+                                   <router-link to="/" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Home</router-link>
                             </li>
                             <li class="navbar-item" >
-                                <router-link to="/projects" class="nav-link">Projects</router-link>
+                                <router-link to="/projects" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Projects</router-link>
                             </li>
                             <li class="navbar-item" >
-                                   <router-link to="/about" class="nav-link">About</router-link>
+                                   <router-link to="/about" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">About</router-link>
                             </li>
                             
                         <div class="navbar-item">
-                            <router-link to="/contact" class="btn btn-success">
+                            <router-link to="/contact" class="btn btn-success" data-toggle="collapse" data-target=".navbar-collapse.show">
                                Contact
                             </router-link>
                         </div>

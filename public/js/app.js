@@ -1960,6 +1960,61 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2160,11 +2215,6 @@ var _data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_r
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/card */ "./resources/js/components/card.vue");
-//
-//
-//
-//
-//
 //
 //
 //
@@ -37532,7 +37582,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "col-md-4 mx-auto pb-5" }, [
+  return _c("div", { staticClass: "col-sm-6 col-md-4 mx-auto pb-5" }, [
     _c("div", { class: ["card custom-card", _vm.theme] }, [
       _c("div", { staticClass: "card-body" }, [
         _c("h4", { staticClass: "card-title" }, [_vm._v("Card Title")]),
@@ -37598,194 +37648,219 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "vue-page" }, [
+    _c(
+      "div",
+      {
+        staticClass:
+          "d-flex flex-column justify-content-center align-items-center"
+      },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "p-5" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "btn-group flex-wrap",
+                  attrs: {
+                    role: "group",
+                    "aria-label":
+                      "Contact, Social media, Github and projects buttons group"
+                  }
+                },
+                [
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _c(
+                    "router-link",
+                    {
+                      staticClass: "btn btn-light m-1",
+                      staticStyle: { "background-color": "#ffA361" },
+                      attrs: { to: "contact" }
+                    },
+                    [
+                      _c("span", [_vm._v("Say Hi!")]),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "icon is-small" }, [
+                        _c("i", { staticClass: "fas fa-paper-plane" })
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ])
+          ])
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "vue-page" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "d-flex flex-column justify-content-center align-items-center"
-        },
-        [
-          _c("div", { staticClass: "row text-center" }, [
-            _c("h1", { staticClass: "section-headline" }, [_vm._v("About me")])
+    return _c("div", { staticClass: "row text-center" }, [
+      _c("h1", { staticClass: "section-headline" }, [_vm._v("About me")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-6" }, [
+        _c(
+          "figure",
+          { staticClass: "image mx-auto", staticStyle: { width: "150px" } },
+          [
+            _c("img", {
+              staticClass: "img-fluid img-thumbnail rounded-circle",
+              attrs: {
+                width: "150",
+                height: "150",
+                src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg")
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("p", { staticClass: "text-white text-justify" }, [
+          _vm._v(
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 text-center" }, [
+        _c("h2", { staticClass: "section-subTitle" }, [
+          _vm._v("\n          Technologies\n          "),
+          _c("i", { staticClass: "fas fa-code text-dark" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-6" }, [
-              _c(
-                "figure",
-                {
-                  staticClass: "image",
-                  staticStyle: { margin: "auto", width: "150px" }
-                },
-                [
-                  _c("img", {
-                    staticClass: "img-fluid img-thumbnail rounded-circle",
-                    attrs: {
-                      width: "150",
-                      height: "150",
-                      src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg")
-                    }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("p", { staticClass: "text-white text-justify" }, [
-                _vm._v(
-                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-6 has-text-centered" }, [
-              _c("h2", { staticClass: "section-subTitle" }, [
-                _vm._v("\n          Technologies\n          "),
-                _c("i", { staticClass: "fas fa-code has-text-dark" })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "columns is-multiline is-mobile" }, [
-                _c("div", { staticClass: "column is-4 is-half-mobile" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4 is-half-mobile" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "column is-4" }, [
-                  _c(
-                    "figure",
-                    {
-                      staticClass: "image is-96x96",
-                      staticStyle: { margin: "auto" }
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "is-rounded",
-                        attrs: { src: "https://via.placeholder.com/150" }
-                      })
-                    ]
-                  )
-                ])
-              ])
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-2 col-md-3" }, [
+            _c("figure", { staticClass: "figure" }, [
+              _c("img", {
+                staticClass: "figure-img img-fluid rounded-circle",
+                attrs: { src: "https://via.placeholder.com/150" }
+              })
             ])
           ])
-        ]
-      )
+        ])
+      ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "btn btn-secondary m-1 text-white",
+        attrs: { href: "#", target: "_blank" }
+      },
+      [
+        _c("span", { staticClass: "icon" }, [
+          _c("i", { staticClass: "fab fa-github" })
+        ]),
+        _vm._v(" "),
+        _c("span", [_vm._v("GitHub")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "btn btn-primary m-1",
+        attrs: { href: "#", target: "_blank" }
+      },
+      [
+        _c("span", { staticClass: "icon" }, [
+          _c("i", { staticClass: "fab fa-linkedin" })
+        ]),
+        _vm._v(" "),
+        _c("span", [_vm._v("Linkedin")])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -38175,7 +38250,7 @@ var render = function() {
       "div",
       {
         staticClass:
-          "d-flex flex-column justify-content-center align-items-center w-100"
+          "d-flex flex-column justify-content-center align-items-center"
       },
       [
         _vm._m(0),
@@ -38184,12 +38259,12 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "tab-content w-100", attrs: { id: "myTabContent" } },
+          { staticClass: "tab-content", attrs: { id: "myTabContent" } },
           [
             _c(
               "div",
               {
-                staticClass: "tab-pane fade show active w-100",
+                staticClass: "tab-pane fade show active",
                 attrs: {
                   id: "web",
                   role: "tabpanel",
@@ -38199,7 +38274,7 @@ var render = function() {
               [
                 _c(
                   "div",
-                  { staticClass: "row w-100" },
+                  { staticClass: "row" },
                   [
                     _c("card-component", {
                       attrs: {

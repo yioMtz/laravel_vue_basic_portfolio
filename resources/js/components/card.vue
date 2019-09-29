@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-4 mx-auto pb-5">
+  <div class="col-sm-6 col-md-4 mx-auto pb-5">
     <div :class="['card custom-card', theme]">
       <div class="card-body">
         <h4 class="card-title">Card Title</h4>

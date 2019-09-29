@@ -1,7 +1,9 @@
 body {
 	background-color: #191919;
 }
-
+.navbar {
+	background-color: #191919;
+}
 #page-container {
 	position: relative;
 	min-height: 100vh;
@@ -11,7 +13,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
 }
 
 #content-wrap {
@@ -88,11 +89,5 @@ body {
 		@media only screen and (max-width: 600px) {
 			display: block;
 		}
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	#web.tab-pane {
-		display: none;
 	}
 }

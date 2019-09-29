@@ -1,6 +1,6 @@
 <template>
   <div class="vue-page">
-    <div class="d-flex flex-column justify-content-center align-items-center w-100">
+    <div class="d-flex flex-column justify-content-center align-items-center">
       <div class="text-center">
         <h1 class="section-headline">Projects</h1>
       </div>
@@ -23,14 +23,9 @@
           </ul>
         </div>
       </div>
-      <div class="tab-content w-100" id="myTabContent">
-        <div
-          class="tab-pane fade show active w-100"
-          id="web"
-          role="tabpanel"
-          aria-labelledby="web-tab"
-        >
-          <div class="row w-100">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+          <div class="row">
             <card-component
               theme="blue-gradient"
               project="project1"
