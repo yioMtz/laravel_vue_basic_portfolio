@@ -18319,6 +18319,11 @@ a.text-dark:focus {
   background: linear-gradient(140deg, #3dafc1 0%, #c8c9c9 100%);
 }
 
+.custom-card.blue-gradient .card-button:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0px 0px 6px 3px rgba(25, 25, 25, 0.25);
+}
+
 .custom-card.mag-gradient {
   background: #d022e3;
   background: linear-gradient(140deg, #d022e3 0%, #360fdb 100%);
