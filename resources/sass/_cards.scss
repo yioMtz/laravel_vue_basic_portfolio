@@ -1,0 +1,58 @@
+.custom-card {
+	position: relative;
+	border: none;
+	border-radius: 32px;
+	height: 470px;
+	max-width: 300px;
+	text-align: justify;
+	.card-links {
+		padding: 10px;
+		text-align: center;
+		> .card-button {
+			width: 150px;
+			border: none;
+			border-radius: 32px;
+		}
+	}
+	&.blue-gradient {
+		background: rgb(19, 188, 187);
+		background: linear-gradient(140deg, rgba(19, 188, 187, 1) 0%, rgba(54, 15, 219, 1) 100%);
+		-webkit-box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+		-moz-box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+		box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+		color: #f9f9f9;
+		.card-button {
+			background: rgb(61, 175, 193);
+			background: linear-gradient(140deg, rgba(61, 175, 193, 1) 0%, rgba(200, 201, 201, 1) 100%);
+		}
+	}
+	&.mag-gradient {
+		background: rgb(208, 34, 227);
+		background: linear-gradient(140deg, rgba(208, 34, 227, 1) 0%, rgba(54, 15, 219, 1) 100%);
+		-webkit-box-shadow: 7px 7px 6px 0px rgba(214, 165, 220, 0.2);
+		-moz-box-shadow: 7px 7px 6px 0px rgba(214, 165, 220, 0.2);
+		box-shadow: 7px 7px 6px 0px rgba(214, 165, 220, 0.2);
+		color: #f9f9f9;
+		.card-button {
+			background: rgb(174, 144, 226);
+			background: linear-gradient(140deg, rgba(174, 144, 226, 1) 0%, rgba(226, 42, 177, 1) 100%);
+			color: #000;
+			&:hover {
+				color: rgba(255, 255, 255, 0.5) !important;
+				box-shadow: 0px 0px 6px 3px rgba(25, 25, 25, 0.25);
+			}
+		}
+	}
+	&.ocean-gradient {
+		background: rgb(19, 188, 187);
+		background: linear-gradient(140deg, rgba(19, 188, 187, 1) 0%, rgba(54, 15, 219, 1) 100%);
+		-webkit-box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+		-moz-box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+		box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+		color: #f9f9f9;
+		.card-button {
+			background: rgb(61, 175, 193);
+			background: linear-gradient(140deg, rgba(61, 175, 193, 1) 0%, rgba(200, 201, 201, 1) 100%);
+		}
+	}
+}

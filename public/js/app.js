@@ -2190,69 +2190,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   methods: {
     showProject: function showProject(event) {
@@ -38129,269 +38066,206 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "vue-page" }, [
-    _c(
-      "div",
-      {
-        staticClass:
-          "d-flex flex-column justify-content-center align-items-center"
-      },
-      [
-        _vm._m(0),
-        _vm._v(" "),
-        _vm._m(1),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "tab-content", attrs: { id: "myTabContent" } },
-          [
-            _c(
-              "div",
-              {
-                staticClass: "tab-pane fade show active",
-                attrs: {
-                  id: "web",
-                  role: "tabpanel",
-                  "aria-labelledby": "web-tab"
-                }
-              },
-              [
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-md-4 mt-1 mx-auto" }, [
-                    _c("div", { staticClass: "card custom-card" }, [
-                      _c("img", {
-                        staticClass: "img-fluid card-img-top",
-                        attrs: {
-                          src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg"),
-                          width: "150",
-                          height: "150",
-                          alt: "..."
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "card-body" }, [
-                        _c("h5", { staticClass: "card-title" }, [
-                          _vm._v("Card Title")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "text-muted" }, [
-                          _vm._v("Card description")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "links" }, [
-                          _vm._m(2),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "right-link d-flex" }, [
-                            _c(
-                              "button",
-                              {
-                                staticClass: "btn btn-small btn-secondary fabs",
-                                attrs: { type: "button" },
-                                on: {
-                                  click: function($event) {
-                                    return _vm.showProject("project1")
-                                  }
-                                }
-                              },
-                              [_c("i", { staticClass: "fas fa-ellipsis-v" })]
-                            )
-                          ])
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-md-4 mt-1 mx-auto" }, [
-                    _c("div", { staticClass: "card custom-card" }, [
-                      _c("img", {
-                        staticClass: "img-fluid card-img-top",
-                        attrs: {
-                          src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg"),
-                          width: "150",
-                          height: "150",
-                          alt: "..."
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "card-body" }, [
-                        _c("h5", { staticClass: "card-title" }, [
-                          _vm._v("Card Tilte")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "text-muted" }, [
-                          _vm._v("Card description")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "links" }, [
-                          _vm._m(3),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "right-link d-flex" }, [
-                            _c(
-                              "button",
-                              {
-                                staticClass: "btn btn-small btn-success fabs",
-                                attrs: { type: "button" },
-                                on: {
-                                  click: function($event) {
-                                    return _vm.showProject("project2")
-                                  }
-                                }
-                              },
-                              [_c("i", { staticClass: "fas fa-ellipsis-v" })]
-                            )
-                          ])
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-md-4 mt-1 mx-auto" }, [
-                    _c("div", { staticClass: "card custom-card" }, [
-                      _c("img", {
-                        staticClass: "img-fluid card-img-top",
-                        attrs: {
-                          src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg"),
-                          width: "150",
-                          height: "150",
-                          alt: "..."
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "card-body" }, [
-                        _c("h5", { staticClass: "card-title" }, [
-                          _vm._v("Card Title")
-                        ]),
-                        _vm._v(" "),
-                        _c("p", { staticClass: "text-muted" }, [
-                          _vm._v("Card Description")
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "links" }, [
-                          _vm._m(4),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "right-link d-flex" }, [
-                            _c(
-                              "button",
-                              {
-                                staticClass: "btn btn-small btn-success fabs",
-                                attrs: { type: "button" },
-                                on: {
-                                  click: function($event) {
-                                    return _vm.showProject("project3")
-                                  }
-                                }
-                              },
-                              [_c("i", { staticClass: "fas fa-ellipsis-v" })]
-                            )
-                          ])
-                        ])
-                      ])
-                    ])
-                  ])
-                ])
-              ]
-            )
-          ]
-        )
-      ]
-    )
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center" }, [
-      _c("h1", { staticClass: "section-headline" }, [_vm._v("Projects")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col" }, [
-        _c(
-          "ul",
-          {
-            staticClass: "nav justify-content-center",
-            attrs: { id: "projects-tab", role: "tablist" }
-          },
-          [
-            _c("li", { staticClass: "nav-item" }, [
+    return _c("div", { staticClass: "vue-page" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "d-flex flex-column justify-content-center align-items-center"
+        },
+        [
+          _c("div", { staticClass: "text-center" }, [
+            _c("h1", { staticClass: "section-headline" }, [_vm._v("Projects")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col" }, [
               _c(
-                "a",
+                "ul",
                 {
-                  staticClass: "nav-link active",
-                  attrs: {
-                    id: "web-tab",
-                    "data-toggle": "tab",
-                    href: "#web",
-                    role: "tab",
-                    "aria-controls": "web",
-                    "aria-selected": "true"
-                  }
+                  staticClass: "nav justify-content-center",
+                  attrs: { id: "projects-tab", role: "tablist" }
                 },
                 [
-                  _c("i", {
-                    staticClass: "fas fa-globe",
-                    attrs: { "aria-hidden": "true" }
-                  }),
-                  _vm._v(" Web\n            ")
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link active",
+                        attrs: {
+                          id: "web-tab",
+                          "data-toggle": "tab",
+                          href: "#web",
+                          role: "tab",
+                          "aria-controls": "web",
+                          "aria-selected": "true"
+                        }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fas fa-globe",
+                          attrs: { "aria-hidden": "true" }
+                        }),
+                        _vm._v(" Web\n            ")
+                      ]
+                    )
+                  ])
                 ]
               )
             ])
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "left-link d-flex" }, [
-      _c(
-        "a",
-        {
-          staticClass: "btn btn-small btn-secondary",
-          staticStyle: { "background-color": "#005959" },
-          attrs: { type: "button", href: "#", target: "_blank" }
-        },
-        [_vm._v("visit site")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "left-link d-flex" }, [
-      _c(
-        "a",
-        {
-          staticClass: "btn btn-small btn-secondary",
-          staticStyle: { "background-color": "#005959" },
-          attrs: { type: "button", href: "#", target: "_blank" }
-        },
-        [_vm._v("visit site")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "left-link d-flex" }, [
-      _c(
-        "a",
-        {
-          staticClass: "btn btn-small btn-secondary",
-          staticStyle: { "background-color": "#005959" },
-          attrs: { type: "button", href: "#", target: "_blank" }
-        },
-        [_vm._v("visit site")]
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "tab-content", attrs: { id: "myTabContent" } },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "tab-pane fade show active",
+                  attrs: {
+                    id: "web",
+                    role: "tabpanel",
+                    "aria-labelledby": "web-tab"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-4 mx-auto pb-5" }, [
+                      _c(
+                        "div",
+                        { staticClass: "card custom-card blue-gradient" },
+                        [
+                          _c("div", { staticClass: "card-body" }, [
+                            _c("h4", { staticClass: "card-title" }, [
+                              _vm._v("Card Title")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo"
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "card-image" }, [
+                              _c("img", {
+                                staticClass: "img-fluid card-img-top",
+                                attrs: {
+                                  src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg"),
+                                  alt: "..."
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "card-links" }, [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn btn-light card-button",
+                                  attrs: { type: "button" }
+                                },
+                                [_vm._v("View details")]
+                              )
+                            ])
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-4 mx-auto pb-5" }, [
+                      _c(
+                        "div",
+                        { staticClass: "card custom-card mag-gradient" },
+                        [
+                          _c("div", { staticClass: "card-body" }, [
+                            _c("h4", { staticClass: "card-title" }, [
+                              _vm._v("Card Title")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo"
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "card-image" }, [
+                              _c("img", {
+                                staticClass: "img-fluid card-img-top",
+                                attrs: {
+                                  src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg"),
+                                  alt: "..."
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "card-links" }, [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn btn-light card-button",
+                                  attrs: { type: "button" }
+                                },
+                                [_vm._v("View details")]
+                              )
+                            ])
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-4 mx-auto pb-5" }, [
+                      _c(
+                        "div",
+                        { staticClass: "card custom-card ocean-gradient" },
+                        [
+                          _c("div", { staticClass: "card-body" }, [
+                            _c("h4", { staticClass: "card-title" }, [
+                              _vm._v("Card Title")
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo"
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "card-image" }, [
+                              _c("img", {
+                                staticClass: "img-fluid card-img-top",
+                                attrs: {
+                                  src: __webpack_require__(/*! ../../img/placeholder.jpg */ "./resources/img/placeholder.jpg"),
+                                  alt: "..."
+                                }
+                              })
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "card-links" }, [
+                              _c(
+                                "button",
+                                {
+                                  staticClass: "btn btn-light card-button",
+                                  attrs: { type: "button" }
+                                },
+                                [_vm._v("View details")]
+                              )
+                            ])
+                          ])
+                        ]
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]
+          )
+        ]
       )
     ])
   }

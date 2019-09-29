@@ -26,109 +26,46 @@
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
           <div class="row">
-            <div class="col-md-4 mt-1 mx-auto">
-              <div class="card custom-card">
-                <img
-                  src="../../img/placeholder.jpg"
-                  width="150"
-                  height="150"
-                  class="img-fluid card-img-top"
-                  alt="..."
-                />
+            <div class="col-md-4 mx-auto pb-5">
+              <div class="card custom-card blue-gradient">
                 <div class="card-body">
-                  <h5 class="card-title">Card Title</h5>
-                  <p class="text-muted">Card description</p>
-                  <div class="links">
-                    <div class="left-link d-flex">
-                      <a
-                        type="button"
-                        class="btn btn-small btn-secondary"
-                        style="background-color:#005959;"
-                        href="#"
-                        target="_blank"
-                      >visit site</a>
-                    </div>
-                    <div class="right-link d-flex">
-                      <button
-                        type="button"
-                        class="btn btn-small btn-secondary fabs"
-                        v-on:click="showProject('project1')"
-                      >
-                        <i class="fas fa-ellipsis-v"></i>
-                      </button>
-                    </div>
+                  <h4 class="card-title">Card Title</h4>
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</p>
+                  <div class="card-image">
+                    <img src="../../img/placeholder.jpg" class="img-fluid card-img-top" alt="..." />
+                  </div>
+                  <div class="card-links">
+                    <button type="button" class="btn btn-light card-button">View details</button>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4 mt-1 mx-auto">
-              <div class="card custom-card">
-                <img
-                  src="../../img/placeholder.jpg"
-                  width="150"
-                  height="150"
-                  class="img-fluid card-img-top"
-                  alt="..."
-                />
+            <div class="col-md-4 mx-auto pb-5">
+              <div class="card custom-card mag-gradient">
                 <div class="card-body">
-                  <h5 class="card-title">Card Tilte</h5>
-                  <p class="text-muted">Card description</p>
-                  <div class="links">
-                    <div class="left-link d-flex">
-                      <a
-                        type="button"
-                        class="btn btn-small btn-secondary"
-                        style="background-color:#005959;"
-                        href="#"
-                        target="_blank"
-                      >visit site</a>
-                    </div>
-                    <div class="right-link d-flex">
-                      <button
-                        type="button"
-                        class="btn btn-small btn-success fabs"
-                        v-on:click="showProject('project2')"
-                      >
-                        <i class="fas fa-ellipsis-v"></i>
-                      </button>
-                    </div>
+                  <h4 class="card-title">Card Title</h4>
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</p>
+                  <div class="card-image">
+                    <img src="../../img/placeholder.jpg" class="img-fluid card-img-top" alt="..." />
+                  </div>
+                  <div class="card-links">
+                    <button type="button" class="btn btn-light card-button">View details</button>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4 mt-1 mx-auto">
-              <div class="card custom-card">
-                <img
-                  src="../../img/placeholder.jpg"
-                  width="150"
-                  height="150"
-                  class="img-fluid card-img-top"
-                  alt="..."
-                />
+            <div class="col-md-4 mx-auto pb-5">
+              <div class="card custom-card ocean-gradient">
                 <div class="card-body">
-                  <h5 class="card-title">Card Title</h5>
-                  <p class="text-muted">Card Description</p>
-                  <div class="links">
-                    <div class="left-link d-flex">
-                      <a
-                        type="button"
-                        class="btn btn-small btn-secondary"
-                        style="background-color:#005959;"
-                        href="#"
-                        target="_blank"
-                      >visit site</a>
-                    </div>
-                    <div class="right-link d-flex">
-                      <button
-                        type="button"
-                        class="btn btn-small btn-success fabs"
-                        v-on:click="showProject('project3')"
-                      >
-                        <i class="fas fa-ellipsis-v"></i>
-                      </button>
-                    </div>
+                  <h4 class="card-title">Card Title</h4>
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo</p>
+                  <div class="card-image">
+                    <img src="../../img/placeholder.jpg" class="img-fluid card-img-top" alt="..." />
+                  </div>
+                  <div class="card-links">
+                    <button type="button" class="btn btn-light card-button">View details</button>
                   </div>
                 </div>
               </div>

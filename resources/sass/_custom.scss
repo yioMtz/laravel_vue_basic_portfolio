@@ -26,27 +26,11 @@
 	border-bottom: 1px solid;
 }
 
-.bg-img {
-	background: url('../img/site-bg.jpg') center center no-repeat;
-	background-size: cover;
-
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: linear-gradient(to bottom right, #002f4b, #000);
-		opacity: .8;
-	}
-}
-
 #myTabContent {
 	margin-top: 25px;
 }
 body {
-	background-color: black;
+	background-color: #191919;
 }
 
 #page-container {
@@ -72,7 +56,7 @@ body {
 	bottom: 0;
 	width: 100%;
 	height: 4rem;
-	background-color: black;
+	background-color: #191919;
 	color: white;
 }
 
@@ -83,58 +67,6 @@ body {
 
 	#content-wrap {
 		padding-bottom: 5.5rem;
-	}
-}
-
-.custom-card {
-	position: relative;
-	max-width: 280px;
-	background-color: rgba(3, 30, 29, 0.2);
-	border: 1px solid rgba(65, 104, 103, 0.2);
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	color: white;
-	height: 350px;
-	.card-title {
-		font-size: 1rem;
-		color: $mint !important;
-		font-weight: 300;
-	}
-}
-
-div.icons {
-	justify-content: space-evenly;
-	align-items: center;
-	font-size: 2.25rem;
-}
-.fabs {
-	height: 35px !important;
-	width: 35px !important;
-	border-radius: 50% !important;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-div.links {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	padding: 10px;
-	> .left-link {
-		flex: 1;
-		justify-content: flex-start;
-		align-items: center;
-		.btn {
-			margin-right: 10px;
-		}
-	}
-	> .right-link {
-		flex: 1;
-		justify-content: flex-end;
-		align-items: center;
 	}
 }
 
@@ -159,7 +91,7 @@ div.links {
 	}
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 768px) {
 	#web.tab-pane {
 		display: none;
 	}
