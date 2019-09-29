@@ -18307,6 +18307,11 @@ a.text-dark:focus {
   border-radius: 32px;
 }
 
+.custom-card .card-links > .card-button:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0px 0px 6px 3px rgba(25, 25, 25, 0.25);
+}
+
 .custom-card.blue-gradient {
   background: #13bcbb;
   background: linear-gradient(140deg, #13bcbb 0%, #360fdb 100%);
@@ -18317,11 +18322,6 @@ a.text-dark:focus {
 .custom-card.blue-gradient .card-button {
   background: #3dafc1;
   background: linear-gradient(140deg, #3dafc1 0%, #c8c9c9 100%);
-}
-
-.custom-card.blue-gradient .card-button:hover {
-  color: rgba(255, 255, 255, 0.5) !important;
-  box-shadow: 0px 0px 6px 3px rgba(25, 25, 25, 0.25);
 }
 
 .custom-card.mag-gradient {
