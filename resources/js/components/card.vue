@@ -24,7 +24,10 @@ export default {
   name: "card",
   props: {
     theme: String,
-    project: String
+    project: String,
+    slug: String,
+    title: String,
+    image: ""
   },
   methods: {
     showProject(event) {
@@ -33,6 +36,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>

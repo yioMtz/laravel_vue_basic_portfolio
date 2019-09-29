@@ -1,6 +1,6 @@
 <template>
   <div class="vue-page">
-    <div class="d-flex flex-column justify-content-center align-items-center">
+    <div class="d-flex flex-column justify-content-center align-items-center w-100">
       <div class="text-center">
         <h1 class="section-headline">Projects</h1>
       </div>
@@ -23,22 +23,36 @@
           </ul>
         </div>
       </div>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
-          <div class="row">
+      <div class="tab-content w-100" id="myTabContent">
+        <div
+          class="tab-pane fade show active w-100"
+          id="web"
+          role="tabpanel"
+          aria-labelledby="web-tab"
+        >
+          <div class="row w-100">
             <card-component
               theme="blue-gradient"
               project="project1"
+              title="title"
+              slug="desc"
+              image="../../img/placeholder.jpg"
               v-on:show-project="projectClicked"
             ></card-component>
             <card-component
               theme="mag-gradient"
               project="project2"
+              title="title"
+              slug="desc"
+              image="../../img/placeholder.jpg"
               v-on:show-project="projectClicked"
             ></card-component>
             <card-component
               theme="ocean-gradient"
               project="project3"
+              title="title"
+              slug="desc"
+              image="../../img/placeholder.jpg"
               v-on:show-project="projectClicked"
             ></card-component>
           </div>

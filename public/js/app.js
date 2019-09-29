@@ -1863,7 +1863,10 @@ __webpack_require__.r(__webpack_exports__);
   name: "card",
   props: {
     theme: String,
-    project: String
+    project: String,
+    slug: String,
+    title: String,
+    image: ""
   },
   methods: {
     showProject: function showProject(event) {
@@ -2157,6 +2160,20 @@ var _data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_r
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/card */ "./resources/js/components/card.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -38158,7 +38175,7 @@ var render = function() {
       "div",
       {
         staticClass:
-          "d-flex flex-column justify-content-center align-items-center"
+          "d-flex flex-column justify-content-center align-items-center w-100"
       },
       [
         _vm._m(0),
@@ -38167,12 +38184,12 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "tab-content", attrs: { id: "myTabContent" } },
+          { staticClass: "tab-content w-100", attrs: { id: "myTabContent" } },
           [
             _c(
               "div",
               {
-                staticClass: "tab-pane fade show active",
+                staticClass: "tab-pane fade show active w-100",
                 attrs: {
                   id: "web",
                   role: "tabpanel",
@@ -38182,20 +38199,38 @@ var render = function() {
               [
                 _c(
                   "div",
-                  { staticClass: "row" },
+                  { staticClass: "row w-100" },
                   [
                     _c("card-component", {
-                      attrs: { theme: "blue-gradient", project: "project1" },
+                      attrs: {
+                        theme: "blue-gradient",
+                        project: "project1",
+                        title: "title",
+                        slug: "desc",
+                        image: "../../img/placeholder.jpg"
+                      },
                       on: { "show-project": _vm.projectClicked }
                     }),
                     _vm._v(" "),
                     _c("card-component", {
-                      attrs: { theme: "mag-gradient", project: "project2" },
+                      attrs: {
+                        theme: "mag-gradient",
+                        project: "project2",
+                        title: "title",
+                        slug: "desc",
+                        image: "../../img/placeholder.jpg"
+                      },
                       on: { "show-project": _vm.projectClicked }
                     }),
                     _vm._v(" "),
                     _c("card-component", {
-                      attrs: { theme: "ocean-gradient", project: "project3" },
+                      attrs: {
+                        theme: "ocean-gradient",
+                        project: "project3",
+                        title: "title",
+                        slug: "desc",
+                        image: "../../img/placeholder.jpg"
+                      },
                       on: { "show-project": _vm.projectClicked }
                     })
                   ],
