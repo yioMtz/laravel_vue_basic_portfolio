@@ -18292,7 +18292,7 @@ a.text-dark:focus {
   border: none;
   border-radius: 32px;
   height: 470px;
-  max-width: 300px;
+  max-width: 280px;
   text-align: justify;
 }
 
@@ -18307,21 +18307,11 @@ a.text-dark:focus {
   border-radius: 32px;
 }
 
-.custom-card .card-links > .card-button:hover {
-  color: rgba(255, 255, 255, 0.5) !important;
-  box-shadow: 0px 0px 6px 3px rgba(25, 25, 25, 0.25);
-}
-
 .custom-card.blue-gradient {
   background: #13bcbb;
   background: linear-gradient(140deg, #13bcbb 0%, #360fdb 100%);
   box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
   color: #f9f9f9;
-}
-
-.custom-card.blue-gradient .card-button {
-  background: #3dafc1;
-  background: linear-gradient(140deg, #3dafc1 0%, #c8c9c9 100%);
 }
 
 .custom-card.mag-gradient {
@@ -18331,27 +18321,19 @@ a.text-dark:focus {
   color: #f9f9f9;
 }
 
-.custom-card.mag-gradient .card-button {
-  background: #ae90e2;
-  background: linear-gradient(140deg, #ae90e2 0%, #e22ab1 100%);
-  color: #000;
-}
-
-.custom-card.mag-gradient .card-button:hover {
-  color: rgba(255, 255, 255, 0.5) !important;
-  box-shadow: 0px 0px 6px 3px rgba(25, 25, 25, 0.25);
-}
-
 .custom-card.ocean-gradient {
-  background: #13bcbb;
-  background: linear-gradient(140deg, #13bcbb 0%, #360fdb 100%);
-  box-shadow: 7px 7px 6px 0px rgba(122, 161, 160, 0.25);
+  background: #2330ec;
+  background: linear-gradient(140deg, #2330ec 0%, #3abe03 100%);
+  box-shadow: 6px 6px 7px 0px rgba(164, 171, 219, 0.2);
   color: #f9f9f9;
 }
 
-.custom-card.ocean-gradient .card-button {
-  background: #3dafc1;
-  background: linear-gradient(140deg, #3dafc1 0%, #c8c9c9 100%);
+.btn-success {
+  color: #151414;
+}
+
+.btn-successhover {
+  color: #fff;
 }
 
 .router-link-exact-active {

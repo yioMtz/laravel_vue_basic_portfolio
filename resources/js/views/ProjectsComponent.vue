@@ -35,7 +35,7 @@
                     <img src="../../img/placeholder.jpg" class="img-fluid card-img-top" alt="..." />
                   </div>
                   <div class="card-links">
-                    <button type="button" class="btn btn-light card-button">View details</button>
+                    <button type="button" class="btn btn-success card-button">View details</button>
                   </div>
                 </div>
               </div>
@@ -50,7 +50,7 @@
                     <img src="../../img/placeholder.jpg" class="img-fluid card-img-top" alt="..." />
                   </div>
                   <div class="card-links">
-                    <button type="button" class="btn btn-light card-button">View details</button>
+                    <button type="button" class="btn btn-success card-button">View details</button>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@
                     <img src="../../img/placeholder.jpg" class="img-fluid card-img-top" alt="..." />
                   </div>
                   <div class="card-links">
-                    <button type="button" class="btn btn-light card-button">View details</button>
+                    <button type="button" class="btn btn-success card-button">View details</button>
                   </div>
                 </div>
               </div>

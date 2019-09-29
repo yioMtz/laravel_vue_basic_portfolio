@@ -38168,7 +38168,7 @@ var staticRenderFns = [
                               _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-light card-button",
+                                  staticClass: "btn btn-success card-button",
                                   attrs: { type: "button" }
                                 },
                                 [_vm._v("View details")]
@@ -38209,7 +38209,7 @@ var staticRenderFns = [
                               _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-light card-button",
+                                  staticClass: "btn btn-success card-button",
                                   attrs: { type: "button" }
                                 },
                                 [_vm._v("View details")]
@@ -38250,7 +38250,7 @@ var staticRenderFns = [
                               _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-light card-button",
+                                  staticClass: "btn btn-success card-button",
                                   attrs: { type: "button" }
                                 },
                                 [_vm._v("View details")]

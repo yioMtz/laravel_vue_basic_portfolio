@@ -45,9 +45,9 @@
                             </li>
                             
                         <div class="navbar-item">
-                            <a class="btn btn-success text-white">
+                            <router-link to="/contact" class="btn btn-success">
                                Contact
-                            </a>
+                            </router-link>
                         </div>
                     </ul>
                 </div>
