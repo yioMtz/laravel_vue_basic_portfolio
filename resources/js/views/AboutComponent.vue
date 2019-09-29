@@ -27,42 +27,42 @@
           <div class="columns is-multiline is-mobile">
             <div class="column is-4 is-half-mobile">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4 is-half-mobile">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
             <div class="column is-4">
               <figure class="image is-96x96" style="margin:auto">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/16x16.png" />
+                <img class="is-rounded" src="https://via.placeholder.com/150" />
               </figure>
             </div>
           </div>

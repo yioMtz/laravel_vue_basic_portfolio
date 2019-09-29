@@ -37622,9 +37622,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37640,9 +37638,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37658,9 +37654,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37676,9 +37670,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37694,9 +37686,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37712,9 +37702,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37730,9 +37718,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
@@ -37748,9 +37734,7 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "is-rounded",
-                        attrs: {
-                          src: "https://bulma.io/images/placeholders/16x16.png"
-                        }
+                        attrs: { src: "https://via.placeholder.com/150" }
                       })
                     ]
                   )
