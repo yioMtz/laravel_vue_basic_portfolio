@@ -1,34 +1,3 @@
-.router-link-exact-active {
-	color: $mint !important;
-	border-bottom: 2px solid;
-}
-.section-headline {
-	font-family: 'Roboto', sans-serif;
-	font-style: italic;
-	font-size: 3rem;
-	text-align: center;
-	color: white;
-}
-.section-subTitle {
-	font-family: 'Roboto', sans-serif;
-	font-style: italic;
-	font-size: 2rem;
-	color: $mint;
-}
-
-#projects-tab .nav-link {
-	color: white;
-	font-weight: normal;
-}
-#projects-tab .nav-link.active {
-	color: $mint;
-	font-weight: bold;
-	border-bottom: 1px solid;
-}
-
-#myTabContent {
-	margin-top: 25px;
-}
 body {
 	background-color: #191919;
 }
@@ -68,6 +37,37 @@ body {
 	#content-wrap {
 		padding-bottom: 5.5rem;
 	}
+}
+.router-link-exact-active {
+	color: $mint !important;
+	border-bottom: 2px solid;
+}
+.section-headline {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 3rem;
+	text-align: center;
+	color: white;
+}
+.section-subTitle {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 2rem;
+	color: $mint;
+}
+
+#projects-tab .nav-link {
+	color: white;
+	font-weight: normal;
+}
+#projects-tab .nav-link.active {
+	color: $mint;
+	font-weight: bold;
+	border-bottom: 1px solid;
+}
+
+#myTabContent {
+	margin-top: 25px;
 }
 
 #pmodal {

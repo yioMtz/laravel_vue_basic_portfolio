@@ -52,6 +52,7 @@ const app = new Vue({
 	router,
 	methods : {
 		projectModal(value) {
+			console.log('reciving.app..');
 			this.title = value;
 			$('#pmodal').modal();
 		}

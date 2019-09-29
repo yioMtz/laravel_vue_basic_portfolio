@@ -18336,41 +18336,6 @@ a.text-dark:focus {
   color: #fff;
 }
 
-.router-link-exact-active {
-  color: #429e9d !important;
-  border-bottom: 2px solid;
-}
-
-.section-headline {
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-size: 3rem;
-  text-align: center;
-  color: white;
-}
-
-.section-subTitle {
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-size: 2rem;
-  color: #429e9d;
-}
-
-#projects-tab .nav-link {
-  color: white;
-  font-weight: normal;
-}
-
-#projects-tab .nav-link.active {
-  color: #429e9d;
-  font-weight: bold;
-  border-bottom: 1px solid;
-}
-
-#myTabContent {
-  margin-top: 25px;
-}
-
 body {
   background-color: #191919;
 }
@@ -18410,6 +18375,41 @@ body {
   #content-wrap {
     padding-bottom: 5.5rem;
   }
+}
+
+.router-link-exact-active {
+  color: #429e9d !important;
+  border-bottom: 2px solid;
+}
+
+.section-headline {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.section-subTitle {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  color: #429e9d;
+}
+
+#projects-tab .nav-link {
+  color: white;
+  font-weight: normal;
+}
+
+#projects-tab .nav-link.active {
+  color: #429e9d;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+#myTabContent {
+  margin-top: 25px;
 }
 
 @media only screen and (max-width: 600px) {
