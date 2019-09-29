@@ -18294,6 +18294,7 @@ a.text-dark:focus {
   height: 470px;
   width: 280px;
   text-align: justify;
+  margin: auto;
 }
 
 .custom-card .card-links {
