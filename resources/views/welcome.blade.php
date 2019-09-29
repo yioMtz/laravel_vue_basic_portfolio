@@ -15,7 +15,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="bg-black">
   <div id="app">
     <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">

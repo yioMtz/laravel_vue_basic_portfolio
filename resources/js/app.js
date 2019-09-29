@@ -9,6 +9,7 @@ import VueRouter from 'vue-router';
 import HomeComponent from './views/HomeComponent.vue';
 import ProjectsComponent from './views/ProjectsComponent.vue';
 import AboutComponent from './views/AboutComponent.vue';
+import ContactComponent from './views/ContactComponent.vue';
 
 window.Vue = require('vue');
 
@@ -39,6 +40,7 @@ const routes = [
 	{ path: '/', name: 'home', component: HomeComponent },
 	{ path: '/projects', name: 'projects', component: ProjectsComponent },
 	{ path: '/about', name: 'about', component: AboutComponent },
+	{ path: '/contact', name: 'contact', component: ContactComponent },
 	{ path: '*', component: HomeComponent }
 ];
 
@@ -52,7 +54,6 @@ const app = new Vue({
 	router,
 	methods : {
 		projectModal(value) {
-			console.log('reciving.app..');
 			this.title = value;
 			$('#pmodal').modal();
 		}

@@ -10,7 +10,7 @@
         <div class="card-links">
           <button
             type="button"
-            class="btn btn-success card-button"
+            class="btn btn-light card-button"
             v-on:click="showProject(project)"
           >View details</button>
         </div>
